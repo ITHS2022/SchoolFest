@@ -18,3 +18,21 @@ header{
     color: white;
     font-size: 150px;
 }
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+.stamp {
+    margin: 5px;
+    float: left;
+    width: calc(50% - 10px);
+    height: 50%;
+}
+
+.stamp-img{
+    width:100%;
+}
