@@ -3,7 +3,7 @@ function firstscript() {
         alert('既にスタンプを取得しているようです。');
               }else{
         alert('スタンプを取得しました！');
- }
+}
 }
  window.onload = firstscript;
 
