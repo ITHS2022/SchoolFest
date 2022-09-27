@@ -59,3 +59,29 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+
+.under-menu{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    font-size: 0;
+    z-index: 99;
+    background-color: #262626;
+ }
+
+.under-menu ul{
+    display: flex;
+    list-style: none;
+    padding:0;
+    margin:0;
+    width:100%;
+    text-align: center;
+ }
+
+ .under-menu img{
+    width: 100%;
+ }
+
+.under-menu li{
+    margin: 10px;
+}
