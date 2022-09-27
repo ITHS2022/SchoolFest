@@ -4,6 +4,7 @@ function firstscript() {
               }else{
         alert('スタンプを取得しました！')
  }
+}
  window.onload = firstscript;
 
  Cookies.set('stamp1', 'true');
