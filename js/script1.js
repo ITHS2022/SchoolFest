@@ -1,6 +1,6 @@
 function firstscript() {
     if(stamp1 == "true") {
-        alert('既にスタンプを取得しているようです。)
+        alert('既にスタンプを取得しているようです。')
               }else{
         alert('スタンプを取得しました！')
  }
