@@ -19,12 +19,6 @@ if(stamp4 == "true") {
     document.stamp4.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/stamp/60th_logo_4.png?raw=true";
 }
 
-if{stamp1 == "true") {
-    if(stamp2 == "true") {
-        if(stamp3 == "true") {
-            if(stamp4 == "true") {
-                
-}
 
 function reset() {
     if (window.confirm('集めたスタンプを削除してもよろしいですか？もとには戻せません。')) {
