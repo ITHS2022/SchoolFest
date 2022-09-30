@@ -26,3 +26,10 @@ function reset() {
         location.reload()
     }
   }
+
+if(stamp1 == true){
+        if(stamp2 == true){
+            if(stamp3 == true){
+                   if(stamp4 == true){
+var mydiv = document.getElementById("main-text");
+mydiv.innerHTML = "<h1>スタンプがすべて揃いました！</h1>";}}}}
