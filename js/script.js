@@ -12,7 +12,7 @@ if(stamp2 == "true") {
 }
 
 if(stamp3 == "true") {
-    document.stamp3.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/stamp/60th_logo_3.png?raw=true";
+    document.stamp3.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/stamp/60th_logo3.png?raw=true";
 }
 
 if(stamp4 == "true") {
