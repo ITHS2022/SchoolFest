@@ -8,7 +8,7 @@ if(stamp1 == "true") {
 }
 
 if(stamp2 == "true") {
-    document.stamp2.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/stamp/60th_logo_2.png?raw=true";
+    document.stamp2.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/stamp/60th_logo2.png?raw=true";
 }
 
 if(stamp3 == "true") {
