@@ -4,7 +4,7 @@ const stamp3 = Cookies.get('stamp3');
 const stamp4 = Cookies.get('stamp4');
 
 if(stamp1 == "true") {
-    document.stamp1.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/stamp/60th_logo_1.png?raw=true";
+    document.stamp1.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/stamp/60th_logo1.png?raw=true";
 }
 
 if(stamp2 == "true") {
