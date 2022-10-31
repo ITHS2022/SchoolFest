@@ -7,13 +7,37 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <body>
   <header>
-    <h1 class="Home">ぶんかさい！</h1>
+    <div class="top">
+    <div class="head">
+      <img src="https://github.com/ITHS2022/SchoolFest/blob/main/img/head.png?raw=true">
+    </div>
+    <div class="hamburger-menu">
+      <input type="checkbox" id="menu-btn-check">
+      <label for="menu-btn-check" class="menu-btn"><span></span></label>
+      <!--ここからメニュー-->
+      <div class="menu-content">
+          <ul>
+              <li>
+                  <a href="#">スタンプの場所</a>
+              </li>
+              <li>
+                  <a href="#">遊び方</a>
+              </li>
+              <li>
+                  <a href="javascript:reset();">獲得したスタンプのリセット</a>
+              </li>
+          </ul>
+      </div>
+      <!--ここまでメニュー-->
+    </div>
+  </div>
   </header>
   <div class="main-contents">
-    <div id="main-text">
-    <h1 style="font-size: 60px;">4つの場所を<br>回ってスタンプを集めよう！</h1>
+    <div id="main-text" style="font-size: 35px; text-align: center;margin:10px";>
+    <h1 id="main-text">4つの場所を<br>回ってスタンプを集めよう！</h1>
     </div>
       <div class="stamp-list">
         <ul class="list">
@@ -31,6 +55,7 @@
           </li>
         </ul>
       </div>
+      <!--旧メニューバー
       <div class="under-menu">
         <ul>
           <li><a href="#"><img src="https://github.com/ITHS2022/SchoolFest/blob/main/img/icons/status.PNG?raw=true"></a></li>
@@ -39,6 +64,7 @@
           <li><a href="javascript:reset();"><img src="https://raw.githubusercontent.com/ITHS2022/SchoolFest/main/img/icons/reset.PNG"></a></li>
         </ul>
       </div>
+      -->
       <p style="font-size: 30px;">制作中につき動作しない箇所があります。</p>
   </div>
   <script src="js/script.js"></script>
