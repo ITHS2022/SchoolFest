@@ -28,7 +28,9 @@ body {
 .list {
     list-style-type: none;
     margin: 0px;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .stamp {
