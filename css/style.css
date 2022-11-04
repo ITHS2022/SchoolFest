@@ -203,5 +203,32 @@ button {
 
 .howto{
     margin-bottom:100px;
+}
+
+.howto span{
+    font-weight: bold;
+}
+.howto p{
+    font-size: 60px;
+}
+.warn img{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: auto;
+    height: 200px;
+    text-align:center;
+}
+
+.warn{
+    margin-bottom: 150px;
+    margin-left: -10px;
     font-size: 50px;
+    font-weight: bold;
+    background-color: red;
+    color :white;
+    width: 100%;
+}
+
+.temp{
+    width: 100%;
 }
