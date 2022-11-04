@@ -31,6 +31,10 @@ if(stamp1 == "true"){
     if(stamp2 == "true"){
         if(stamp3 == "true"){
             if(stamp4 == "true"){
+                document.stamp1.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/after/1.png?raw=trues";
+                document.stamp2.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/after/2.png?raw=trues";
+                document.stamp3.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/after/3.png?raw=trues";
+                document.stamp4.src = "https://github.com/ITHS2022/SchoolFest/blob/main/img/after/4.png?raw=trues";
                 var mydiv = document.getElementById("main-text");
                 mydiv.innerHTML = "<h1>スタンプがすべて揃いました！</h1>";
             }
