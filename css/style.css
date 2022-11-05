@@ -10,6 +10,10 @@ body {
     width: 100%;
 }
 
+.main-contents{
+    display: none; /*非表示*/
+}
+
 .head{
     background-color: white;
 }
